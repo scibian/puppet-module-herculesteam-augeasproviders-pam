@@ -1,0 +1,23 @@
+puppet-module-herculesteam-augeasproviders-pam (2.1.0-0calibre1~bpo8+4) calibre9; urgency=low
+
+  * Change path to files installed according to others packages
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Tue, 15 Sep 2016 16:54:49 +0100
+
+puppet-module-herculesteam-augeasproviders-pam (2.1.0-0calibre1~bpo8+3) calibre9; urgency=low
+
+  * Bugfix bad command line for update-alternative in postinst (again ...)
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Tue, 15 Sep 2016 15:57:49 +0100
+
+puppet-module-herculesteam-augeasproviders-pam (2.1.0-0calibre1~bpo8+2) calibre9; urgency=low
+
+  * Bugfix bad command line for update-alternative in postinst
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Tue, 15 Sep 2016 10:39:49 +0100
+
+puppet-module-herculesteam-augeasproviders-pam (2.1.0-0calibre1~bpo8+1) calibre9; urgency=low
+
+  * Initial release
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Tue, 09 Aug 2016 13:20:49 +0100
