@@ -1,3 +1,9 @@
+puppet-module-herculesteam-augeasproviders-pam (2.1.0-0sci8u1) scibian8; urgency=low
+
+  * Scibian8 rebuild
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Fri, 13 Dec 2017 09:49:49 +0100
+
 puppet-module-herculesteam-augeasproviders-pam (2.1.0-0calibre1~bpo8+4) calibre9; urgency=low
 
   * Change path to files installed according to others packages
