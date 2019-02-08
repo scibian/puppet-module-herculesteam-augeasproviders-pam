@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/scibian/puppet-module-herculesteam-augeasprovide
 
 Package: puppet-module-herculesteam-augeasproviders-pam
 Architecture: all
-Depends: puppet-common,
+Depends: puppet-common | puppet4,
          puppet-module-herculesteam-augeasproviders-core,
          ${misc:Depends}
 Description: Puppet module augeasproviders_pam
