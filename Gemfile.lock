@@ -1,20 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    CFPropertyList (2.2.8)
+    concurrent-ruby (1.1.8)
     coveralls (0.7.2)
       multi_json (~> 1.3)
       rest-client (= 1.6.7)
       simplecov (>= 0.7)
       term-ansicolor (= 1.2.2)
       thor (= 0.18.1)
+    deep_merge (1.2.1)
     diff-lcs (1.2.5)
-    facter (2.4.3)
-      CFPropertyList (~> 2.2.6)
-    hiera (1.3.4)
-      json_pure
+    facter (2.5.7)
+    fast_gettext (1.8.0)
+    hiera (3.7.0)
+    hocon (1.3.1)
+    httpclient (2.8.3)
     json (1.8.2)
-    json_pure (1.8.2)
+    locale (2.1.3)
     metaclass (0.0.4)
     metadata-json-lint (0.0.6)
       json
@@ -23,10 +25,17 @@ GEM
     mocha (1.1.0)
       metaclass (~> 0.0.1)
     multi_json (1.11.0)
-    puppet (3.7.5)
-      facter (> 1.6, < 3)
-      hiera (~> 1.0)
-      json_pure
+    puppet (6.13.0)
+      concurrent-ruby (~> 1.0)
+      deep_merge (~> 1.0)
+      facter (> 2.0.1, < 5)
+      fast_gettext (~> 1.1)
+      hiera (>= 3.2.1, < 4)
+      httpclient (~> 2.8)
+      locale (~> 2.1)
+      multi_json (~> 1.10)
+      puppet-resource_api (~> 1.5)
+      semantic_puppet (~> 1.0)
     puppet-lint (1.1.0)
     puppet-lint-absolute_classname-check (0.1.3)
       puppet-lint (~> 1.0)
@@ -48,6 +57,8 @@ GEM
       puppet-lint (~> 1.0)
     puppet-lint-version_comparison-check (0.1.2)
       puppet-lint (~> 1.0)
+    puppet-resource_api (1.8.13)
+      hocon (>= 1.0)
     puppet-syntax (2.0.0)
       rake
     puppetlabs_spec_helper (0.10.3)
@@ -79,6 +90,7 @@ GEM
       json
     rspec-support (3.2.2)
     ruby-augeas (0.5.0)
+    semantic_puppet (1.0.3)
     simplecov (0.7.1)
       multi_json (~> 1.0)
       simplecov-html (~> 0.7.1)
@@ -97,7 +109,7 @@ PLATFORMS
 DEPENDENCIES
   coveralls
   metadata-json-lint
-  puppet (~> 3.4)
+  puppet (>= 2.7)
   puppet-lint
   puppet-lint-absolute_classname-check
   puppet-lint-empty_string-check
@@ -114,6 +126,6 @@ DEPENDENCIES
   redcarpet (~> 2.0)
   rspec-puppet
   rspec-puppet-facts
-  ruby-augeas (~> 0.5)
+  ruby-augeas (~> 0.3)
   simplecov (~> 0.7.0)
   yard
