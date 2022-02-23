@@ -10,8 +10,7 @@ Vcs-Browser: https://github.com/scibian/puppet-module-herculesteam-augeasprovide
 
 Package: puppet-module-herculesteam-augeasproviders-pam
 Architecture: all
-Depends: puppet-common,
-         puppet-module-herculesteam-augeasproviders-core,
+Depends: puppet-module-herculesteam-augeasproviders-core,
          ${misc:Depends}
 Description: Puppet module augeasproviders_pam
  Puppet lets you centrally manage every important aspect of your system
