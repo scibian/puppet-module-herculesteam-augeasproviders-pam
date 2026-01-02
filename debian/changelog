@@ -1,3 +1,9 @@
+puppet-module-herculesteam-augeasproviders-pam (4.0.0sci13u1) scibian13; urgency=medium
+
+  * New upstream version 4.1.0
+
+ -- Saran KABA <saran-externe.kaba@edf.fr>  Fri, 02 Jan 2026 17:25:18 +0100
+
 puppet-module-herculesteam-augeasproviders-pam (2.3.0-0sci11u1) scibian11; urgency=medium
 
   [ Kwame AMEDODJI ]
