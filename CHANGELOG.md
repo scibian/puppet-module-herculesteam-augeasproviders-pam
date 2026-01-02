@@ -1,5 +1,41 @@
 # Changelog
 
+## v4.0.0
+
+**Breaking changes:**
+
+- Drop Puppet 6 support [\#43](https://github.com/voxpupuli/puppet-augeasproviders_pam/pull/43) ([bastelfreak](https://github.com/bastelfreak))
+
+**Implemented enhancements:**
+
+- puppet/augeasproviders\_core: Allow 4.x [\#45](https://github.com/voxpupuli/puppet-augeasproviders_pam/pull/45) ([bastelfreak](https://github.com/bastelfreak))
+- Add puppet 8 support [\#44](https://github.com/voxpupuli/puppet-augeasproviders_pam/pull/44) ([bastelfreak](https://github.com/bastelfreak))
+
+## v3.0.1
+
+[Full Changelog](https://github.com/voxpupuli/puppet-augeasproviders_pam/compare/v3.0.0...v3.0.1)
+
+**Fixed bugs:**
+
+- update references to voxpupuli namespace [\#36](https://github.com/voxpupuli/puppet-augeasproviders_pam/pull/36) ([vchepkov](https://github.com/vchepkov))
+
+## v3.0.0
+
+[Full Changelog](https://github.com/voxpupuli/puppet-augeasproviders_pam/compare/2.3.0...v3.0.0)
+
+**Breaking changes:**
+
+- Drop EoL OS [\#33](https://github.com/voxpupuli/puppet-augeasproviders_pam/pull/33) ([bastelfreak](https://github.com/bastelfreak))
+- Drop Puppet 5 support [\#32](https://github.com/voxpupuli/puppet-augeasproviders_pam/pull/32) ([ekohl](https://github.com/ekohl))
+
+**Implemented enhancements:**
+
+- Add Puppet 7 support [\#34](https://github.com/voxpupuli/puppet-augeasproviders_pam/pull/34) ([bastelfreak](https://github.com/bastelfreak))
+
+**Closed issues:**
+
+- redcarpet version specified in Gemfile flagged in CVE-2020-26298 [\#31](https://github.com/voxpupuli/puppet-augeasproviders_pam/issues/31)
+
 ## 2.3.0
 
 - allow augeasproviders_core 3.x
